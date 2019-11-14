@@ -22,6 +22,7 @@
     compatible with the LGPL 2.1 license.
     </description>
     <url>https://github.com/jai-imageio/jai-imageio-jpeg2000</url>
+
   <organization>
     <name>jai-imageio GitHub group</name>
     <url>https://github.com/jai-imageio/</url>
@@ -344,13 +345,13 @@
       <url>https://github.com/jai-imageio/jai-imageio-jpeg2000/issues</url>
     </issueManagement>
 
-    <distributionManagement>
-      <repository>
-        <id>bintray-jai-imageio-maven-jai-imageio-jpeg2000</id>
-        <name>jai-imageio-maven-jai-imageio-jpeg2000</name>
-        <url>https://api.bintray.com/maven/jai-imageio/maven/jai-imageio-jpeg2000</url>
-      </repository>
-    </distributionManagement>
+  <distributionManagement>
+    <repository>
+      <id>bintray-dmushkov-jai-imageio</id>
+      <name>dmushkov-jai-imageio</name>
+      <url>https://api.bintray.com/maven/dmushkov/jai-imageio/jai-imageio-jpeg2000/;publish=1</url>
+    </repository>
+  </distributionManagement>
   <repositories>
     <repository>
       <id>bintray-jai-imageio</id>
